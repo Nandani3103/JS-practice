@@ -29,3 +29,29 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory - Stack (Primitive) , Heap (Non-primitive)
+
+let myYouTubeName = "Nandani Sharma"
+let anothername = myYouTubeName;
+anothername = "Ishu"
+console.log(myYouTubeName);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@okhdfcbank"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "nandani@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
